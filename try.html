@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyclix</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #000;
+ 
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: #C1272D;
+            height: 90px;
+            flex-shrink: 0;
+        }
+        
+        header nav a{
+            color: #000;
+            text-decoration: none;
+            margin-left: 30px;
+            font-weight: bold;
+        }
+
+        .logo {
+            width: 215px;
+            height: 110px;
+            flex-shrink: 0;
+            aspect-ratio: 3/2;
+        }
+        .content_right {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px;
+            background-color: #000;
+            background-size: cover;
+            background-position: center;
+            height: 85vh;
+            background-image: url("Group\ 59.png")
+        }
+
+        .home-text {
+            width: 1079px;
+            height: 354px;
+            flex-shrink: 0;
+            color: #C5AA30;
+            font-family: "Lilita One";
+            font-size: 90px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            
+        }
+        .sub-text  {
+            width: 783px;
+            height: 95px;
+            flex-shrink: 0;
+            font-size: 18px;
+            margin-bottom: 30px;
+            color: #AB9292;
+            font-family: Inter;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        .button {
+            padding: 12px 25px;
+            background: #BF292A;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            text-decoration: none;
+            border-radius: 50px;
+        }
+        .button:hover {
+        color: #fff;
+        background-color: #eb7878;
+        transform: 2s;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="logo.png" class="logo">
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="content_right">
+        <div >
+            <h1 class="home-text">
+                YOUR NEXT<br> ADVENTURE <br>AWAITS
+            </h1>
+            <p class="sub-text">
+                Push beyond limits. Ride with precision, speed, and style.<br>
+                Discover what true performance feels like.
+            </p>
+            <a href="#" class="button">Explore Bikes →</a>
+        </div>
+    </section>
+</body>
+</html>
